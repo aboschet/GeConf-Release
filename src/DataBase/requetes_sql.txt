@@ -1,0 +1,24 @@
+Tâche 6 : Ecriture des requêtes permettant la gestion des ateliers :
+                Requête sur la table Atelier :
+				1) ajouter un atelier
+				2) supprimer un atelier
+				3) récupérer uniquement le champ « titre_definitif » des ateliers
+				4) récupérer toutes les informations d’un atelier
+                Requête sur la table Laboratoire :
+				5) ajouter un laboratoire
+
+1) INSERT INTO atelier (titre_definitif, theme, type, laboratoire, lieu, duree, capacite, type_inscription, date, description, animateur, partenaire, public, contenu_pedagogique)
+ VALUES ('valeur 1', 'valeur 2', ...)
+
+2) DELETE FROM atelier
+WHERE "id" = 1
+
+3) SELECT titre_definitif
+   FROM atelier
+
+4) SELECT *
+   FROM atelier
+   WHERE ... = ...
+
+5) INSERT INTO laboratoire (nom, lieu)
+ VALUES ('valeur 1', 'valeur 2')

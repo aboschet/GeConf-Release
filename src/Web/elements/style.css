@@ -36,3 +36,12 @@
 #Layout a:hover {
 	color: #004358;
 	}
+
+#Layout table, #Layout td {
+    border: 1px solid black;
+
+}
+#Layout table
+{
+margin:auto;
+}
